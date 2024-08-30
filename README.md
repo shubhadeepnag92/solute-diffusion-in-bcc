@@ -24,12 +24,16 @@ Program Structure
 
 The program is structured into the following key modules and subroutines:
 
-**Module Parameter: **Defines all parameters, variables, and arrays used in the program. \n
-**Main Program (BCC): **Handles file I/O, data reading, and the main loop for processing trajectory data.
-Subroutine voidvoiddistance: Calculates the distance between two void centers.
-Subroutine guestvoiddistance: Calculates the distance between a solute and a void center.
-Subroutine minimumimageconvention: Adjusts distances using the Minimum Image Convention for periodic boundary conditions.
-Subroutine guestenergy: Computes the interaction energy between the solute and surrounding atoms during hopping.
-Usage
+**Module Parameter:** Defines all parameters, variables, and arrays used in the program.
+
+**Main Program (BCC):** Handles file I/O, data reading, and the main loop for processing trajectory data.
+
+**Subroutine voidvoiddistance:** Calculates the distance between two void centers.
+
+**Subroutine guestvoiddistance:** Calculates the distance between a solute and a void center.
+
+**Subroutine minimumimageconvention:** Adjusts distances using the Minimum Image Convention for periodic boundary conditions.
+
+**Subroutine guestenergy:** Computes the interaction energy between the solute and surrounding atoms during hopping.
 
 To run the program, compile the Fortran code with an appropriate compiler (e.g., gfortran) and execute it with the required input files. The program reads trajectory data from input files and outputs the hopping event counts, energy calculations, and coordination data to specified output files.
