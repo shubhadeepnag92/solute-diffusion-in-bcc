@@ -33,13 +33,13 @@
 
 !	open files to read and write
 	
-	open(unit=2,file='guest_1p1.xyz')
-	open(unit=3,file='dump_pe.guest_1p1')
+	open(unit=2,file='guest.xyz')
+	open(unit=3,file='dump_pe.guest')
 	open(unit=4,file='void_bcc.xyz')
-	open(unit=8,file='host_1p1.xyz')
+	open(unit=8,file='host.xyz')
 	open(unit=11,file='count_jump.dat',access='append')
-	open(unit=17,file='tt_to_ot_oo_energy_1p1_rmin.dat')
-	open(unit=18,file='tt_to_ot_oo_coord_1p1_rmin.dat')
+	open(unit=17,file='tt_to_ot_oo_energy_rmin.dat')
+	open(unit=18,file='tt_to_ot_oo_coord_rmin.dat')
 
 !	read the trajectory points
 
