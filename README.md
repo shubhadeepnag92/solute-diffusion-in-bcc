@@ -5,9 +5,13 @@ Program for Solute Diffusion in BCC Solvent
 Overview This repository contains a Fortran program developed to analyze the hopping of solutes in a Body-Centered Cubic (BCC) solvent lattice. The program specifically tracks and computes data for four types of hopping events:
 
 Tetra-Tetra (TT) Hopping
+
 Octa-Tetra (OT) Hopping
+
 Tetra-Octa (TO) Hopping
+
 Octa-Octa (OO) Hopping
+
 The program reads in trajectory data, energy values, and void positions to determine the frequency and energy characteristics of these hopping events.
 
 Main Features
